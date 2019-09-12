@@ -1,0 +1,46 @@
+PODS:
+  - ADDatePicker (1.0.0)
+  - Alamofire (4.8.2)
+  - Charts (3.2.2):
+    - Charts/Core (= 3.2.2)
+  - Charts/Core (3.2.2)
+  - FSCalendar (2.8.0)
+  - JTAppleCalendar (7.1.6)
+  - KDCalendar (1.6.5)
+  - SnapKit (4.2.0)
+  - SwiftCharts (0.6.3)
+
+DEPENDENCIES:
+  - ADDatePicker
+  - Alamofire
+  - Charts
+  - FSCalendar
+  - JTAppleCalendar
+  - KDCalendar
+  - SnapKit
+  - SwiftCharts
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ADDatePicker
+    - Alamofire
+    - Charts
+    - FSCalendar
+    - JTAppleCalendar
+    - KDCalendar
+    - SnapKit
+    - SwiftCharts
+
+SPEC CHECKSUMS:
+  ADDatePicker: 62cd9bb25b71b261bbd008020ea9347b84979873
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Charts: f69cf0518b6d1d62608ca504248f1bbe0b6ae77e
+  FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
+  JTAppleCalendar: abb30678f42a4ef8a340a932b1dcb8c85a33dac2
+  KDCalendar: 15e74f37bd3d206bf7549c594fd08e0347c276f4
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftCharts: 1535b5e228702af2c9c4d60c2a408f2f0f579fa8
+
+PODFILE CHECKSUM: 6332a749ed9d8d7c7c0a0ec0cbf9f33079ce0eae
+
+COCOAPODS: 1.6.1

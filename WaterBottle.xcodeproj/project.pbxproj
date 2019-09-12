@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DD2E1AC2224A54E00512389 /* VerifyEmailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2E1AB2224A54E00512389 /* VerifyEmailController.swift */; };
+		4DD2E1B02224A68500512389 /* ProfileSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2E1AF2224A68500512389 /* ProfileSettingController.swift */; };
+		4DD2E1B22224AF0800512389 /* ChangePasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2E1B12224AF0800512389 /* ChangePasswordController.swift */; };
+		4DD2E1B42224B10200512389 /* FirsttimeProfileSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2E1B32224B10200512389 /* FirsttimeProfileSettingController.swift */; };
+		4DD2E1B62224B1C600512389 /* FirsttimeNotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2E1B52224B1C600512389 /* FirsttimeNotificationsController.swift */; };
+		4DD2E1B82224B33A00512389 /* FirsttimeFrequencyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2E1B72224B33A00512389 /* FirsttimeFrequencyController.swift */; };
+		4DD2E1BA2224B34F00512389 /* FirsttimeTargetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2E1B92224B34F00512389 /* FirsttimeTargetController.swift */; };
+		4DD2E1BC2224B36000512389 /* FirsttimeReminderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2E1BB2224B36000512389 /* FirsttimeReminderController.swift */; };
+		4DD2E1BE2224D58900512389 /* FreqSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2E1BD2224D58900512389 /* FreqSelectionCell.swift */; };
+		4DD2E1C0222640C400512389 /* DailyIntakeGraphController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2E1BF222640C400512389 /* DailyIntakeGraphController.swift */; };
+		4DD2E1C22226E56800512389 /* EnterOneCupConfirmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2E1C12226E56800512389 /* EnterOneCupConfirmController.swift */; };
+		4DD2E1C62226FF0F00512389 /* DistributionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2E1C52226FF0F00512389 /* DistributionController.swift */; };
+		4DD2E1C82227101D00512389 /* TGDropBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2E1C72227101D00512389 /* TGDropBoxView.swift */; };
+		4DD2E1CE2227976F00512389 /* ProfileSettingsControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2E1CD2227976F00512389 /* ProfileSettingsControllerTwo.swift */; };
+		611D5AC522236989005784CA /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611D5AC422236989005784CA /* HistoryController.swift */; };
+		611D5AC92223A688005784CA /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611D5AC82223A688005784CA /* HomeController.swift */; };
+		611F2508221E25D000CAB11E /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F2507221E25D000CAB11E /* RegisterController.swift */; };
+		611F250C221E4E6600CAB11E /* ClassExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F250B221E4E6500CAB11E /* ClassExtensions.swift */; };
+		611F2510221E4EC800CAB11E /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F250F221E4EC800CAB11E /* SettingsController.swift */; };
+		611F2516221F90FE00CAB11E /* TableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F2515221F90FE00CAB11E /* TableExtensions.swift */; };
+		611F2518221F94B200CAB11E /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F2517221F94B200CAB11E /* NotificationsController.swift */; };
+		611F251A221F97B800CAB11E /* FrequencyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F2519221F97B800CAB11E /* FrequencyController.swift */; };
+		611F251C221F97D500CAB11E /* TargetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F251B221F97D500CAB11E /* TargetController.swift */; };
+		611F251E221F97E200CAB11E /* ReminderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F251D221F97E200CAB11E /* ReminderController.swift */; };
+		619AE5CC2221047C00B9861F /* CalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619AE5CB2221047C00B9861F /* CalendarController.swift */; };
+		61A31261221DE74000365FCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A31260221DE74000365FCC /* AppDelegate.swift */; };
+		61A31263221DE74000365FCC /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A31262221DE74000365FCC /* LoginController.swift */; };
+		61A31268221DE74500365FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61A31267221DE74500365FCC /* Assets.xcassets */; };
+		61A3126B221DE74500365FCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A31269221DE74500365FCC /* LaunchScreen.storyboard */; };
+		61DDB821221FB80400117F8E /* EnterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DDB820221FB80400117F8E /* EnterController.swift */; };
+		61F722EE221FE88F002276D4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F722ED221FE88F002276D4 /* TabBarController.swift */; };
+		61F722F0221FF183002276D4 /* CustomizedInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F722EF221FF183002276D4 /* CustomizedInputController.swift */; };
+		BAFEADAC0513BB2B3F4DF8BA /* Pods_WaterBottle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8D18AFE27AAB142C994277 /* Pods_WaterBottle.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38D2213E1B17D42FAA98EAF8 /* Pods-WaterBottle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterBottle.release.xcconfig"; path = "Target Support Files/Pods-WaterBottle/Pods-WaterBottle.release.xcconfig"; sourceTree = "<group>"; };
+		4DD2E1AB2224A54E00512389 /* VerifyEmailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyEmailController.swift; sourceTree = "<group>"; };
+		4DD2E1AF2224A68500512389 /* ProfileSettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingController.swift; sourceTree = "<group>"; };
+		4DD2E1B12224AF0800512389 /* ChangePasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordController.swift; sourceTree = "<group>"; };
+		4DD2E1B32224B10200512389 /* FirsttimeProfileSettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirsttimeProfileSettingController.swift; sourceTree = "<group>"; };
+		4DD2E1B52224B1C600512389 /* FirsttimeNotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirsttimeNotificationsController.swift; sourceTree = "<group>"; };
+		4DD2E1B72224B33A00512389 /* FirsttimeFrequencyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirsttimeFrequencyController.swift; sourceTree = "<group>"; };
+		4DD2E1B92224B34F00512389 /* FirsttimeTargetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirsttimeTargetController.swift; sourceTree = "<group>"; };
+		4DD2E1BB2224B36000512389 /* FirsttimeReminderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirsttimeReminderController.swift; sourceTree = "<group>"; };
+		4DD2E1BD2224D58900512389 /* FreqSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreqSelectionCell.swift; sourceTree = "<group>"; };
+		4DD2E1BF222640C400512389 /* DailyIntakeGraphController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyIntakeGraphController.swift; sourceTree = "<group>"; };
+		4DD2E1C12226E56800512389 /* EnterOneCupConfirmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterOneCupConfirmController.swift; sourceTree = "<group>"; };
+		4DD2E1C52226FF0F00512389 /* DistributionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributionController.swift; sourceTree = "<group>"; };
+		4DD2E1C72227101D00512389 /* TGDropBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TGDropBoxView.swift; sourceTree = "<group>"; };
+		4DD2E1CD2227976F00512389 /* ProfileSettingsControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingsControllerTwo.swift; sourceTree = "<group>"; };
+		5F9024CFBD9F062D3F7A7D00 /* Pods-WaterBottle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterBottle.debug.xcconfig"; path = "Target Support Files/Pods-WaterBottle/Pods-WaterBottle.debug.xcconfig"; sourceTree = "<group>"; };
+		611D5AC422236989005784CA /* HistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
+		611D5AC82223A688005784CA /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		611F2507221E25D000CAB11E /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		611F250B221E4E6500CAB11E /* ClassExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassExtensions.swift; sourceTree = "<group>"; };
+		611F250F221E4EC800CAB11E /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		611F2515221F90FE00CAB11E /* TableExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableExtensions.swift; sourceTree = "<group>"; };
+		611F2517221F94B200CAB11E /* NotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
+		611F2519221F97B800CAB11E /* FrequencyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyController.swift; sourceTree = "<group>"; };
+		611F251B221F97D500CAB11E /* TargetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetController.swift; sourceTree = "<group>"; };
+		611F251D221F97E200CAB11E /* ReminderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderController.swift; sourceTree = "<group>"; };
+		619AE5CB2221047C00B9861F /* CalendarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarController.swift; sourceTree = "<group>"; };
+		619AE5D5222118E800B9861F /* Objc-Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objc-Bridge-Header.h"; sourceTree = "<group>"; };
+		61A3125D221DE74000365FCC /* WaterBottle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterBottle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A31260221DE74000365FCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61A31262221DE74000365FCC /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		61A31267221DE74500365FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61A3126A221DE74500365FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61A3126C221DE74500365FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61DDB820221FB80400117F8E /* EnterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterController.swift; sourceTree = "<group>"; };
+		61F722ED221FE88F002276D4 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		61F722EF221FF183002276D4 /* CustomizedInputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedInputController.swift; sourceTree = "<group>"; };
+		EA8D18AFE27AAB142C994277 /* Pods_WaterBottle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterBottle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61A3125A221DE74000365FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFEADAC0513BB2B3F4DF8BA /* Pods_WaterBottle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61A31254221DE74000365FCC = {
+			isa = PBXGroup;
+			children = (
+				61A3125F221DE74000365FCC /* WaterBottle */,
+				61A3125E221DE74000365FCC /* Products */,
+				E6B5AD8A58929BC5D007E654 /* Pods */,
+				78FC0653455999F02C4C63AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61A3125E221DE74000365FCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61A3125D221DE74000365FCC /* WaterBottle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61A3125F221DE74000365FCC /* WaterBottle */ = {
+			isa = PBXGroup;
+			children = (
+				61A31260221DE74000365FCC /* AppDelegate.swift */,
+				611F250B221E4E6500CAB11E /* ClassExtensions.swift */,
+				611F2517221F94B200CAB11E /* NotificationsController.swift */,
+				611F250F221E4EC800CAB11E /* SettingsController.swift */,
+				4DD2E1BD2224D58900512389 /* FreqSelectionCell.swift */,
+				619AE5CB2221047C00B9861F /* CalendarController.swift */,
+				619AE5D5222118E800B9861F /* Objc-Bridge-Header.h */,
+				61A31262221DE74000365FCC /* LoginController.swift */,
+				611F2515221F90FE00CAB11E /* TableExtensions.swift */,
+				611D5AC422236989005784CA /* HistoryController.swift */,
+				61F722ED221FE88F002276D4 /* TabBarController.swift */,
+				61F722EF221FF183002276D4 /* CustomizedInputController.swift */,
+				611D5AC82223A688005784CA /* HomeController.swift */,
+				611F2519221F97B800CAB11E /* FrequencyController.swift */,
+				611F2507221E25D000CAB11E /* RegisterController.swift */,
+				61DDB820221FB80400117F8E /* EnterController.swift */,
+				611F251B221F97D500CAB11E /* TargetController.swift */,
+				611F251D221F97E200CAB11E /* ReminderController.swift */,
+				61A31267221DE74500365FCC /* Assets.xcassets */,
+				61A31269221DE74500365FCC /* LaunchScreen.storyboard */,
+				61A3126C221DE74500365FCC /* Info.plist */,
+				4DD2E1AB2224A54E00512389 /* VerifyEmailController.swift */,
+				4DD2E1AF2224A68500512389 /* ProfileSettingController.swift */,
+				4DD2E1B12224AF0800512389 /* ChangePasswordController.swift */,
+				4DD2E1B32224B10200512389 /* FirsttimeProfileSettingController.swift */,
+				4DD2E1B52224B1C600512389 /* FirsttimeNotificationsController.swift */,
+				4DD2E1B72224B33A00512389 /* FirsttimeFrequencyController.swift */,
+				4DD2E1B92224B34F00512389 /* FirsttimeTargetController.swift */,
+				4DD2E1BB2224B36000512389 /* FirsttimeReminderController.swift */,
+				4DD2E1BF222640C400512389 /* DailyIntakeGraphController.swift */,
+				4DD2E1C12226E56800512389 /* EnterOneCupConfirmController.swift */,
+				4DD2E1C52226FF0F00512389 /* DistributionController.swift */,
+				4DD2E1C72227101D00512389 /* TGDropBoxView.swift */,
+				4DD2E1CD2227976F00512389 /* ProfileSettingsControllerTwo.swift */,
+			);
+			path = WaterBottle;
+			sourceTree = "<group>";
+		};
+		78FC0653455999F02C4C63AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA8D18AFE27AAB142C994277 /* Pods_WaterBottle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6B5AD8A58929BC5D007E654 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F9024CFBD9F062D3F7A7D00 /* Pods-WaterBottle.debug.xcconfig */,
+				38D2213E1B17D42FAA98EAF8 /* Pods-WaterBottle.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61A3125C221DE74000365FCC /* WaterBottle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61A3126F221DE74500365FCC /* Build configuration list for PBXNativeTarget "WaterBottle" */;
+			buildPhases = (
+				36BFCD4FCD5C749A0922025A /* [CP] Check Pods Manifest.lock */,
+				61A31259221DE74000365FCC /* Sources */,
+				61A3125A221DE74000365FCC /* Frameworks */,
+				61A3125B221DE74000365FCC /* Resources */,
+				B84495EB524CFCFD5185F35C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterBottle;
+			productName = WaterBottle;
+			productReference = 61A3125D221DE74000365FCC /* WaterBottle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61A31255221DE74000365FCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "张涵雅";
+				TargetAttributes = {
+					61A3125C221DE74000365FCC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 61A31258221DE74000365FCC /* Build configuration list for PBXProject "WaterBottle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61A31254221DE74000365FCC;
+			productRefGroup = 61A3125E221DE74000365FCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61A3125C221DE74000365FCC /* WaterBottle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61A3125B221DE74000365FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A3126B221DE74500365FCC /* LaunchScreen.storyboard in Resources */,
+				61A31268221DE74500365FCC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36BFCD4FCD5C749A0922025A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaterBottle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B84495EB524CFCFD5185F35C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WaterBottle/Pods-WaterBottle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ADDatePicker/ADDatePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/KDCalendar/KDCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftCharts/SwiftCharts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ADDatePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KDCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftCharts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WaterBottle/Pods-WaterBottle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61A31259221DE74000365FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611F250C221E4E6600CAB11E /* ClassExtensions.swift in Sources */,
+				4DD2E1C22226E56800512389 /* EnterOneCupConfirmController.swift in Sources */,
+				611F2510221E4EC800CAB11E /* SettingsController.swift in Sources */,
+				61DDB821221FB80400117F8E /* EnterController.swift in Sources */,
+				619AE5CC2221047C00B9861F /* CalendarController.swift in Sources */,
+				611F251A221F97B800CAB11E /* FrequencyController.swift in Sources */,
+				611F251E221F97E200CAB11E /* ReminderController.swift in Sources */,
+				61F722F0221FF183002276D4 /* CustomizedInputController.swift in Sources */,
+				4DD2E1BC2224B36000512389 /* FirsttimeReminderController.swift in Sources */,
+				4DD2E1B22224AF0800512389 /* ChangePasswordController.swift in Sources */,
+				4DD2E1C82227101D00512389 /* TGDropBoxView.swift in Sources */,
+				4DD2E1B42224B10200512389 /* FirsttimeProfileSettingController.swift in Sources */,
+				61A31263221DE74000365FCC /* LoginController.swift in Sources */,
+				611F251C221F97D500CAB11E /* TargetController.swift in Sources */,
+				61A31261221DE74000365FCC /* AppDelegate.swift in Sources */,
+				611F2518221F94B200CAB11E /* NotificationsController.swift in Sources */,
+				61F722EE221FE88F002276D4 /* TabBarController.swift in Sources */,
+				4DD2E1C62226FF0F00512389 /* DistributionController.swift in Sources */,
+				611D5AC92223A688005784CA /* HomeController.swift in Sources */,
+				4DD2E1CE2227976F00512389 /* ProfileSettingsControllerTwo.swift in Sources */,
+				611F2516221F90FE00CAB11E /* TableExtensions.swift in Sources */,
+				4DD2E1BE2224D58900512389 /* FreqSelectionCell.swift in Sources */,
+				4DD2E1AC2224A54E00512389 /* VerifyEmailController.swift in Sources */,
+				611F2508221E25D000CAB11E /* RegisterController.swift in Sources */,
+				4DD2E1BA2224B34F00512389 /* FirsttimeTargetController.swift in Sources */,
+				4DD2E1B02224A68500512389 /* ProfileSettingController.swift in Sources */,
+				611D5AC522236989005784CA /* HistoryController.swift in Sources */,
+				4DD2E1B82224B33A00512389 /* FirsttimeFrequencyController.swift in Sources */,
+				4DD2E1C0222640C400512389 /* DailyIntakeGraphController.swift in Sources */,
+				4DD2E1B62224B1C600512389 /* FirsttimeNotificationsController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61A31269221DE74500365FCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61A3126A221DE74500365FCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61A3126D221DE74500365FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61A3126E221DE74500365FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61A31270221DE74500365FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F9024CFBD9F062D3F7A7D00 /* Pods-WaterBottle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJ85QMHR39;
+				INFOPLIST_FILE = WaterBottle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuluzhangCMU.WaterBottle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61A31271221DE74500365FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38D2213E1B17D42FAA98EAF8 /* Pods-WaterBottle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJ85QMHR39;
+				INFOPLIST_FILE = WaterBottle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuluzhangCMU.WaterBottle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61A31258221DE74000365FCC /* Build configuration list for PBXProject "WaterBottle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A3126D221DE74500365FCC /* Debug */,
+				61A3126E221DE74500365FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61A3126F221DE74500365FCC /* Build configuration list for PBXNativeTarget "WaterBottle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A31270221DE74500365FCC /* Debug */,
+				61A31271221DE74500365FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61A31255221DE74000365FCC /* Project object */;
+}
